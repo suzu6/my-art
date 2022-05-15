@@ -1,19 +1,20 @@
 /**
- * Penrose Tile L-System
+ * Pentigree L-System
  * by Geraldine Sarmiento.
  *
  * This example was based on Patrick Dwyer's L-System class.
  */
 
-PenroseLSystem ds;
+
+PentigreeLSystem ps;
 
 void setup() {
   size(640, 360);
-  ds = new PenroseLSystem();
-  ds.simulate(5);
+  ps = new PentigreeLSystem();
+  ps.simulate(3);
 }
 
 void draw() {
   background(0);
-  ds.render();
+  ps.render();
 }
